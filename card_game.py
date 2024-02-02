@@ -1,3 +1,9 @@
+#-----------------Code for a card game that generates tables and graphs of your game-----------------#
+# V1
+# uses while loops and if/else statements for menues and dataframes such as dictionaries to store the cards
+# uses Pandas and Seaborn modules to generate yables and graphs
+# room for expansion with text based adventure game if you try to leave while in debt
+
 import random as rd
 import time
 
@@ -270,4 +276,5 @@ while True :
                     plt.show()
 
                 else:
-                    break    
+                    break   
+# ------------------END------------------------------
